@@ -1,0 +1,15 @@
+.fixedHeader{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.fixedHeader + .container-entry {
+  padding-top: 60px;
+}
+
+/*.fixedHeader {
+position: fixed;
+top: 0;
+width: 100%;
+}*/

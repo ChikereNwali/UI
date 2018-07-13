@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+  <meta charset="UTF-8" />
+
+  <title> MyDiary Add Entry </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="diary, diaries, journal, online diary, free diary, electronic diary, online journal, free journal, free online diary, free online journal, private diary, secret diary, private journal, personal journal, write, notepad, private blog, private online" />
+  <meta name="description" content="MyDiary is a free online diary and personal journal focused on keeping track of your thoughts and feelings. Easily keep a secret diary or a private journal of notes and ideas securely on the web." />
+  <meta name="author" content="Chikere" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body>
+
+  <div class="container-entry">
+    <nav class ="navbar">
+
+      <span class="open-side">
+        <a href="#" onclick="openSideMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </span>
+
+      <ul class="navbar_nav">
+        <li><a href ="#">Home</a></li>
+        <li><a href ="#">View All Entries</a></li>
+
+
+      </ul>
+
+      <div id="project"><h2 id="projectTitle">MY DIARY</h2></div>
+
+    </nav>
+
+
+    <div id="side-menu" class="side-nav">
+      <a href ="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+      <a href ="#"><span>&#127968;<span>Home</a>
+        <a href ="#">New Entry</a>
+        <a href ="#">View all Entries</a>
+        <a href ="#">Profile</a>
+        <a href ="#">Settings</a>
+
+      </div>
+
+
+
+      <section id = "formArea">
+
+        <form action="/my-handling-form-page" method="post">
+
+          <div>
+            <textarea id="entryTitle" name="user_entry" placeholder="Entry Title "></textarea>
+          </div>
+
+          <div >
+            <textarea id="entryBody" name="user_entry" placeholder="Your entries here"></textarea>
+          </div>
+
+          <div id="entrySave">
+            <input type="button" value="Save"/>
+          </div>
+
+        </form>
+
+      </section>
+</div>
+      <script type="text/javascript" src="./javascript/script.js"></script>
+    </body>
+
+    <footer class="footer_page">
+      <p> COPYRIGHT &copy; 2018, LouisChyke Inc</p>
+    </footer>
+
+    </html>

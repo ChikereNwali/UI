@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+  <meta charset="UTF-8" />
+
+  <title>MyDiary View All Entries </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="diary, diaries, journal, online diary, free diary, electronic diary, online journal, free journal, free online diary, free online journal, private diary, secret diary, private journal, personal journal, write, notepad, private blog, private online" />
+  <meta name="description" content="MyDiary is a free online diary and personal journal focused on keeping track of your thoughts and feelings. Easily keep a secret diary or a private journal of notes and ideas securely on the web." />
+  <meta name="author" content="Chikere" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body>
+
+  <div class="allEntries-container">
+    <nav class="navbar">
+
+      <span class="open-side">
+        <a href="#" onclick="openSideMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </span>
+
+      <ul class="navbar_nav">
+        <li><a href ="#">Home</a></li>
+        <li><a href ="#">New Entry</a></li>
+
+
+      </ul>
+
+      <div id="project"><h2 id="projectTitle">MY DIARY</h2></div>
+
+    </nav>
+
+
+    <div id="side-menu" class="side-nav">
+      <a href ="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+      <a href ="#"><span>&#127968;<span>Home</a>
+        <a href ="#">New Entry</a>
+        <a href ="#">View all Entries</a>
+        <a href ="#">Profile</a>
+        <a href ="#">Settings</a>
+
+      </div>
+
+
+      <header class ="allEntriesHeader">
+
+        <div class="search-container">
+          <input type="text" placeholder="Search this diary.." name="search">
+          <button type="submit">Submit</button>
+        </div>
+
+      </header>
+
+
+
+
+      <div class="addedEntriesBox">
+
+        <table id="userEntries">
+
+          <thead>
+            <tr>
+              <th id="entry" >Entry</th>
+              <th id="date">Date Created</th>
+              <th id="action">Action</th>
+            </tr>
+
+          </thead>
+
+          <tbody id="addedEntries">
+            <tr class="Entries">
+              <td class="entry" ><a href ="#" class="title">Welcome To Your New Diary!
+              </a><p>Not sure where to Start? Take a few minutes... </p></td>
+              <td class="date">Sat. 7/4/2018 at 11:00pm</td>
+              <td class="action"> <a href ="#" class="deleteIcon"><span>&times;</span> </a> <a href ="#" class="printerIcon"><span>&#x1f5b6;</span></a>	</td>
+            </tr>
+
+            <tr class="Entries">
+              <td class="entry" ><a href ="#" class="title">2018 World Cup Final Is here!
+              </a><p>This year's tournamnet so far has been filled with...</p></td>
+              <td class="date">Sat. 13/6/2018 at 11:23am</td>
+              <td class="action"> <a href ="#" class="deleteIcon"><span>&times;</span> </a> <a href ="#" class="printerIcon"><span>&#x1f5b6;</span></a>	</td>
+            </tr>
+
+            <tr class="Entries">
+            <td class="entry" ><a href ="#" class="title">2018 World Cup Final Is here!
+            </a><p>This year's tournamnet so far has been filled with...</p></td>
+            <td class="date">Sat. 7/7/2018 at 05:23pm</td>
+            <td class="action"> <a href ="#" class="deleteIcon"><span>&times;</span> </a> <a href ="#" class="printerIcon"><span>&#x1f5b6;</span></a>	</td>
+          </tr>
+
+          <tr class="Entries">
+            <td class="entry" ><a href ="#" class="title">2018 World Cup Final Is here!
+            </a><p>This year's tournamnet so far has been filled with...</p></td>
+            <td class="date">Sat. 13/7/2018 at 12:00am</td>
+            <td class="action"> <a href ="#" class="deleteIcon"><span>&times;</span> </a> <a href ="#" class="printerIcon"><span>&#x1f5b6;</span></a>	</td>
+          </tr>
+        </tbody>
+
+      </table>
+      <div>
+
+      </div>
+
+      <script type="text/javascript" src="./javascript/script.js"></script>
+    </body>
+
+    <footer class="footer_page">
+      <p> COPYRIGHT &copy; 2018, LouisChyke Inc</p>
+    </footer>
+
+    </html>

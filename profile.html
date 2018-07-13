@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+  <meta charset="UTF-8" />
+
+  <title>MyDiary User Profile </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="diary, diaries, journal, online diary, free diary, electronic diary, online journal, free journal, free online diary, free online journal, private diary, secret diary, private journal, personal journal, write, notepad, private blog, private online" />
+  <meta name="description" content="MyDiary is a free online diary and personal journal focused on keeping track of your thoughts and feelings. Easily keep a secret diary or a private journal of notes and ideas securely on the web." />
+  <meta name="author" content="Chikere" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body>
+
+  <div class="allEntries-container">
+    <nav class="navbar">
+
+      <span class="open-side">
+        <a href="#" onclick="openSideMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </span>
+
+      <ul class="navbar_nav">
+        <li><a href ="#">Home</a></li>
+        <li><a href ="#">New Entry</a></li>
+
+      </ul>
+
+    </nav>
+
+
+    <div id="side-menu" class="side-nav">
+      <a href ="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+      <a href ="#"><span>&#127968;<span>Home</a>
+        <a href ="#">New Entry</a>
+        <a href ="#">View all Entries</a>
+        <a href ="#">Profile</a>
+        <a href ="#">Settings</a>
+
+      </div>
+
+
+      <header class ="allEntriesHeader">
+
+
+        <nav class="navbarProfile">
+          <ul class="navbar_user">
+            <li><a href ="#">Dashboard</a></li>
+            <li><a href ="#">Calender</a></li>
+            <li><a href ="#">Reminder</a></li>
+            <li><a href ="#"></a></li>
+          </ul>
+        </nav>
+
+      </header>
+
+
+
+      <div class="profileBox">
+
+
+        <div class="userImage">
+          <h3>Chikere</h3>
+        <img src="user_image.png" alt="user">
+        </div>
+
+
+        <table id="userDetails">
+          <thead>
+            <tr>
+              <th>Please complete your details</th>
+            </tr>
+         </thead>
+
+            <tr>
+              <th id="firstname" >Firstname</th>
+              <td><input type="text" id="fname"/></td>
+            </tr>
+
+            <tr>
+              <th id="lastname" >Lastname</th>
+              <td><input type="text" id="lname"/></td>
+            </tr>
+            <tr>
+              <th id="username" >Username</th>
+              <td><input type="text" id="uname"/></td>
+            </tr>
+            <tr>
+              <th id="email" >E-mail</th>
+              <td><input type="text" id="mail"/></td>
+            </tr>
+
+            <tr>
+              <th id="password" >Password</th>
+              <td><input type="text" id="pword"/></td>
+            </tr>
+            <tr>
+              <th id="contact" >Contact Address</th>
+              <td><input type="text" id="address"/></td>
+            </tr>
+            <tr>
+              <th id="phone" >Phone Number</th>
+              <td><input type="text" id="pnumber"/></td>
+            </tr>
+
+          </table>
+
+          </div>
+
+          <script type="text/javascript" src="./javascript/script.js"></script>
+        </body>
+
+        <footer class="footer_page">
+          <p> COPYRIGHT &copy; 2018, LouisChyke Inc</p>
+        </footer>
+
+        </html>
